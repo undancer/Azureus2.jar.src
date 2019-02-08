@@ -1,0 +1,19 @@
+package org.gudy.bouncycastle.crypto;
+
+public abstract interface AsymmetricBlockCipher
+{
+  public abstract void init(boolean paramBoolean, CipherParameters paramCipherParameters);
+  
+  public abstract int getInputBlockSize();
+  
+  public abstract int getOutputBlockSize();
+  
+  public abstract byte[] processBlock(byte[] paramArrayOfByte, int paramInt1, int paramInt2)
+    throws InvalidCipherTextException;
+}
+
+
+/* Location:              /Users/Shared/Library/Application Support/Vuze/Azureus2.jar!/org/gudy/bouncycastle/crypto/AsymmetricBlockCipher.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.0RC1
+Created-By: 1.6.0_45-b06 (Sun Microsystems Inc.)
+Main-Class: org.gudy.azureus2.ui.common.Main
+Built-By: VZCB:VuzeClient:build.xml
+Build-Version: 5.7.6.0-93
+Class-Path: swt.jar commons-cli.jar log4j.jar junit.jar
+
